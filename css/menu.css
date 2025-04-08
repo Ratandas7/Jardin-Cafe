@@ -8,7 +8,7 @@ body {
   font-family: "Funnel Display", sans-serif;
 }
 header {
-  background-image: url(./img/banner.png);
+  background-image: url(https://feonext.store/wp-content/uploads/2025/04/banner.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -337,46 +337,46 @@ nav .menu-container {
   color: #fff;
 }
 .minuman-container {
-    margin-top: 50px;
-    width: 100%;
-  }
+  margin-top: 50px;
+  width: 100%;
+}
 .minuman-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
 .minuman-item .item-title {
-    position: relative;
-    width: 80%;
-  }
-.minuman-item  .item-title p {
-    font-size: 22px;
-    color: #000;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
-  
+  position: relative;
+  width: 80%;
+}
+.minuman-item .item-title p {
+  font-size: 22px;
+  color: #000;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .minuman-item .item-title p:after {
-    content: "";
-    width: 50%;
-    color: #1C714A;
-    border-style: dashed;
-    border-width: 0 0 2px 0;
-    position: absolute;
-    display: block;
-    right: 0;
-    top: 50%;
-  }
+  content: "";
+  width: 50%;
+  color: #1c714a;
+  border-style: dashed;
+  border-width: 0 0 2px 0;
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 50%;
+}
 .minuman-item .item-pri {
-    width: 20%;
-  }
-.minuman-item  .item-pri p {
-    text-align: right;
-    font-size: 22px;
-    color: #000;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
+  width: 20%;
+}
+.minuman-item .item-pri p {
+  text-align: right;
+  font-size: 22px;
+  color: #000;
+  font-weight: 300;
+  text-transform: uppercase;
+}
 
 footer {
   background-color: #1c714a;
