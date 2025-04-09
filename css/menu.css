@@ -67,6 +67,7 @@ nav .menu-container {
   background-color: #1c714a;
   font-size: 20px;
   box-shadow: 0px 4px 10px 0px #1c714a;
+  border: 1px solid #1c714a;
 }
 .menu-btn a {
   text-decoration: none;

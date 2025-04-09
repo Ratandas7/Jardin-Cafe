@@ -20,15 +20,47 @@
                 <div class="logo">
                     <a href=""><img src="./img/Logo Jardin Cafe 1.png" alt=""></a>
                 </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
 
                 <div class="menu">
                     <ul class="menu-item">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="menu.html">Our Menu</a></li>
                     </ul>
-                    <button class="menu-btn" type="button"><a href="">Go Food <i
-                                class="bi bi-arrow-right"></i></a></button>
+                    <button class="menu-btn" type="button">
+                        <a href="">
+                            Go Food <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </button>
                 </div>
+
+                <!--******************* new menu **************** -->
+                <!-- <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="nav-bar">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">Our Menu</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="">Go Food</a>
+                        </li>
+                    </ul>
+                </div> -->
+
+                <!--******************* new menu **************** -->
+
             </div>
 
         </nav>
@@ -272,8 +304,33 @@
         </div>
     </footer>
 
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".ssa");
+            const menus = document.querySelectorAll(".home_menu_slider");
 
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const target = this.getAttribute("data-target");
 
+                    // Hide all menus
+                    menus.forEach(menu => menu.classList.remove("active"));
+
+                    // Deactivate all buttons
+                    buttons.forEach(btn => btn.classList.remove("active"));
+
+                    // Show the selected menu and mark button as active
+                    document.getElementById(target).classList.add("active");
+                    this.classList.add("active");
+                });
+            });
+
+            // Show first menu by default
+            buttons[0].click();
+        });
+    </script> -->
+
+    <script src="js/script.js"></script>
 
 </body>
 
